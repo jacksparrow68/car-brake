@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color:#45d678;
+}
+
+#container {
+    margin: 20px auto;
+    width: 400px;
+    height: 90vh;
+    background-color:#292929;
+    position: relative;
+    overflow: hidden;
+}
+
+.line {
+    position: absolute;
+    width: 16px;
+    height: 150px;
+    left:50%;
+    top:5px;
+    margin-left: -5px;
+    background-color:rgba(255, 255,255, 0.5);
+}
+
+#line1 {
+    top:-150px;
+}
+
+#line2 {
+    top:150px;
+}
+
+#line3 {
+    top:450px;
+}
