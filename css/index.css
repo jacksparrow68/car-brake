@@ -33,3 +33,103 @@ body{
 #line3 {
     top:450px;
 }
+
+.car {
+    width: 40px;
+    height: 60px;
+    background-color: #25c5ff;
+    position: absolute;
+    border-radius:8px;
+}
+
+#car1 {
+    top:180px;
+    left:130px;
+}
+
+#car2 {
+    top:280px;
+    left:220px;
+}
+
+#car3 {
+    top:380px;
+    left:280px;
+}
+
+#car4 {
+    top:30px;
+    left:300px;
+}
+
+#mycar {
+    background-color:#ffdf5b;
+    left: 140px;
+    top: 500px;
+}
+
+.glass {
+    width:60%;
+    height: 20%;
+    position: absolute; 
+    left:20%;
+    background-color:#484848;
+}
+
+.f_glass {
+    top:10%;
+    border-radius:0 0 5px 5px;
+}
+
+.b_glass {
+    top:70%;
+    border-radius:  5px 5px 0 0;
+}
+
+.tire{
+    width: 10%;
+    height: 20%;
+    background-color:#808080;
+    position: absolute;
+}
+
+.f_l_tire {
+    top:10%;
+    left:-10%;
+    border-radius:  5px 0 0 5px;
+}
+
+.f_r_tire {
+    top:10%;
+    left:100%;
+    border-radius:0 5px 5px 0;
+}
+
+.b_l_tire {
+    top:70%;
+    left:-10%;
+    border-radius:  5px 0 0 5px;
+}
+
+.b_r_tire{
+    top:70%;
+    left:100%;
+    border-radius:0 5px 5px 0;
+}
+
+.light {
+    background-color:#fff;
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    top:-3px;
+    border-radius:  5px 5px 0 0;
+}
+
+.l_light {
+    left:5px;
+}
+
+.r_light {
+    left:25px;
+}
